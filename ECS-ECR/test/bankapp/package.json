@@ -1,7 +1,12 @@
 {
-  "name":"bankapp",
-  "version":"1.0.0",
-  "dependencies":{
-    "express":"^4.18.2"
+  "name": "bankapp",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for ECS and ECR deployment demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
