@@ -1,0 +1,14 @@
+.env
+node_modules/
+
+# Terraform local working files and state
+**/.terraform/
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/*.tfvars
+*.tfplan
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
